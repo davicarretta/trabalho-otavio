@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    color: white;
+    background-color: #101213;
+    scroll-behavior: smooth;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-color: #101213;
+    position: fixed;
+    top: 0;
+    justify-content: space-around;
+    border-bottom: 2px solid white;
+    z-index: 2;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+header nav h1 {
+    font-family: 'Crimson';
+    font-size: 40px;
+    color: white;
+    position: relative;
+    right: 14.8vw;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    position: relative;
+    left: 15vw;
+    top: 0vh;
+    
+}
+
+header nav ul li {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: white;
+    display: flex;
+}
+
+header nav ul li a {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(191, 196, 192);
+}
+
+main {
+    width: 100%;
+    height: 2500px;
+    background-color: #101213;
+}
+
+section#home {
+    padding-top: 100px;
+    width: 100%;
+    height: 550px;
+    background-color: #101213;
+    display: flex;
+    align-items: center;
+}
+
+div#apresentacao {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 10vh;
+}
+
+div#texto1 {
+    position: relative;
+    left: 6vw;
+    font-size: 50px;
+    color: rgb(191, 196, 192);
+}
+
+span#cores1 {
+    color:rgb(191, 196, 192);
+}
+
+
+div#texto2 {
+    font-size: 26px;
+    position: relative;
+    left: 6vw;
+}
+
+div#texto3 {
+    font-size: 35px;
+    position: relative;
+    left: 6vw;
+    top: 3vh;
+}
+
+span#cores2 {
+    font-size: 50px;
+    color: rgb(191, 196, 192);
+}
+
+div#texto4 {
+    font-size: 26px;
+    position: relative;
+    left: 6vw;
+    top: 1.3vw;
+}
+
+span.cores3 {
+    text-decoration: 1px underline;
+    text-decoration-color: rgb(191, 196, 192)
+}
+
+
+div#foto {
+    width: 384px;
+    height: 494px;
+    z-index: 1;
+    position: relative;
+    left: 25vw;
+    top: 0vh;
+}
+
+img {
+    width: 384px;
+    height: 490px;
+}
+
+div#separacao {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr#linha {
+    height: 0;
+    border-style: solid;
+    border-color: white;
+    margin: 20px 0;
+    padding: 0;
+    border-width: 1px 0 0 0;
+
+}
+
+section#portfolio {
+    width: 100%;
+    height: 500px;
+    background-color: red;
+}
+
+h1#h1p {
+    position: relative;
+    left: 6vw;
+    font-size: 50px;
+    height: 60px;
+}
+
+p#portfoliop1 {
+    max-width: 92.9vw;
+    font-size: 30px;
+    position: relative;
+    left: 6vw;
+    top: 7vh;
+}
+
+section#serviços {
+    width: 100%;
+    height: 600px;
+    background-color: green;
+}
+
+section#contato {
+    width: 100%;
+    height: 600px;
+    background-color: blue;
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: palevioletred;
+}
